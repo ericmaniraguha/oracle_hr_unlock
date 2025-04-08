@@ -36,3 +36,6 @@ To create this schema on your database, follow the steps below:
 ---
 
 🎉 **The HR schema is now fully set up and ready to use!**
+
+![Relational_diagram](https://github.com/user-attachments/assets/24a5c16c-9a70-4300-aaa5-799e8e1c124c)
+
