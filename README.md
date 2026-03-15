@@ -100,7 +100,12 @@ SHOW CON_NAME;
 
 ```sql
 ALTER USER admin IDENTIFIED BY admin;
+
+-- Grant privileges
 GRANT CONNECT, RESOURCE TO admin;
+GRANT CREATE SESSION, CREATE TABLE, CREATE SEQUENCE, CREATE VIEW, CREATE PROCEDURE, ALTER SESSION TO admin;
+GRANT DROP ANY TABLE TO admin;
+GRANT UNLIMITED TABLESPACE TO admin;
 ```
 
 *Grants necessary privileges to manage tables, sequences, and logins.*
